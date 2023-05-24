@@ -10070,3 +10070,8 @@ textarea.form-control {
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
 }
+
+    .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+    -ms-touch-action: auto;
+        touch-action: auto;
+}
