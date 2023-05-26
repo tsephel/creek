@@ -3506,6 +3506,18 @@ input[type="button"].btn-block {
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
 
+.navbar-brand img{
+  width: 125px;
+  height: 125px;
+}
+
+@media (max-width: 700px) {
+  .navbar-brand img{
+    width: 90px;
+    height: 90px;
+  }
+}
+
 .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
